@@ -4,13 +4,14 @@ import { Button } from './ui/button'
 
 //components
 import Nav from './nav'
+import MobileNav from './mobile_nav'
 
 const Header = () => {
   return (
-    <header className='py-8 xl:py-12 text-white'>
+    <header className='py-8 text-white'>
       <div className='container mx-auto flex justify-between items-center'>
         <Link href="/">
-        <h1 className='text-4xl font-semibold'>
+        <h1 className='text-3xl font-semibold'>
           Musaddek<span className='text-accent'>.</span>
         </h1>
         </Link>
@@ -24,7 +25,9 @@ const Header = () => {
         </div>
 
         {/* mobile nav */}
-        <div className='xl:hidden'>mobile nav</div>
+        <div className='xl:hidden'>
+          <MobileNav/>
+        </div>
       </div>
     </header>
   )

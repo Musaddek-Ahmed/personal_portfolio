@@ -148,7 +148,7 @@ const Resume = () => {
                       return(
                         <li 
                          key={index}
-                         className='bg-[#232329] h-[310px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'
+                         className='bg-[#232329] h-[450px] sm:h-[310px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1'
                         > 
                         <div className='flex items-center gap-3'>
                           <span className='w-[6px] h-[6px] rounded-full bg-accent'></span>
@@ -158,7 +158,7 @@ const Resume = () => {
                           <h3 className='text-xl max-w-[268px] min-h-[68px] text-center lg:text-left'>{item.position}</h3>
                           <p className='text-accent'>{item.duration}</p>
                           <div>
-                            <p>{item.description}</p>
+                            <p className='text-justify'>{item.description}</p>
                           </div>
 
                         </li>
@@ -229,12 +229,12 @@ const Resume = () => {
             <TabsContent value='about' className='w-full text-center xl:text-left'>
               <div className='flex flex-col gap-[30px]'>
                 <h3 className='text-4xl font-bold'>{about.title}</h3>
-                <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0'>{about.description}</p>
+                <p className='max-w-[600px] text-white/60 mx-auto xl:mx-0 text-justify'>{about.description}</p>
                 <ul className='grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0'>
                   {about.info.map((item, index)=> {
                     return(
-                      <li key={index} className='flex items-center justify-center xl:justify-start gap-4'>
-                        <span className='text-white/60'>{item.fieldName}</span>
+                      <li key={index} className='flex items-start justify-between xl:justify-start gap-4'>
+                        <span className='text-white/60 '>{item.fieldName}</span>
                         <span className='text-xl '>{item.fieldValue}</span>
                       </li>
                     )

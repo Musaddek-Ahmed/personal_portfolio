@@ -35,8 +35,18 @@ const projects = [
   
   {
     num: '03',
-    category: 'frontend',
+    category: 'fullstack',
     title: 'project 3',
+    description: 'I made my own portfolio with help of NextJs, TailwindCss and Framer-motion. Also used EmailJs for getting visitors messages to my own email. I show cased my work along with my skill in my portfolio.',
+    stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Framer-motion'}],
+    image: '/assets/projects/project5.png',
+    live: 'https://personal-portfolio-two-rouge.vercel.app',
+    github: 'https://github.com/Musaddek-Ahmed/personal_portfolio'
+  },
+  {
+    num: '04',
+    category: 'frontend',
+    title: 'project 4',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project3.png',

@@ -47,6 +47,16 @@ const projects = [
     num: '04',
     category: 'frontend',
     title: 'project 4',
+    description: 'A beautiful homepage of a travel planner website implementing with the help of NextJs and TailwindCSS',
+    stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
+    image: '/assets/projects/project6.png',
+    live: 'https://traveleon.vercel.app',
+    github: 'https://github.com/Musaddek-Ahmed/traveleon'
+  },
+  {
+    num: '05',
+    category: 'frontend',
+    title: 'project 5',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project3.png',

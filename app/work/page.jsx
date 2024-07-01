@@ -59,7 +59,7 @@ const projects = [
     title: 'project 5',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
-    image: '/assets/projects/project7.png',
+    image: '/assets/projects/project7.jpeg',
     live: 'https://musaddek-ahmed.github.io/makepill-clone/',
     github: 'https://github.com/Musaddek-Ahmed/makepill-clone'
   },

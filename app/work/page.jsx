@@ -47,6 +47,16 @@ const projects = [
     num: '04',
     category: 'frontend',
     title: 'project 4',
+    description: 'A SAAS modern landing page with mesmerizing UI with the help of NextJs and TailwindCSS',
+    stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
+    image: '/assets/projects/project7.png',
+    live: 'https://xora-i.vercel.app',
+    github: 'https://github.com/Musaddek-Ahmed/Xora'
+  },
+  {
+    num: '05',
+    category: 'frontend',
+    title: 'project 5',
     description: 'A beautiful homepage of a travel planner website implementing with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project6.png',
@@ -54,9 +64,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/traveleon'
   },
   {
-    num: '05',
+    num: '06',
     category: 'frontend',
-    title: 'project 5',
+    title: 'project 6',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project7.jpeg',
@@ -64,9 +74,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/makepill-clone'
   },
   {
-    num: '06',
+    num: '07',
     category: 'frontend',
-    title: 'project 6',
+    title: 'project 7',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project3.png',

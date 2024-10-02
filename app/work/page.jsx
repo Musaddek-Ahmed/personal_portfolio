@@ -75,8 +75,18 @@ const projects = [
   },
   {
     num: '07',
-    category: 'frontend',
+    category: 'fullstack',
     title: 'project 7',
+    description: 'A weather forecast app with modern touch and various information and implementation of OpenWeatherAPI in fetching real data and making visually attractive and user-friendly.',
+    stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
+    image: '/assets/projects/project8.png',
+    live: 'https://weather-app-musaddek.vercel.app/',
+    github: 'https://github.com/Musaddek-Ahmed/weather-app'
+  },
+  {
+    num: '08',
+    category: 'frontend',
+    title: 'project 8',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project3.png',

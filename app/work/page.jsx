@@ -57,6 +57,16 @@ const projects = [
     num: '05',
     category: 'frontend',
     title: 'project 5',
+    description: 'A modern landing page of a gaming website implementing with the help of NextJs, Typescript and TailwindCSS',
+    stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
+    image: '/assets/projects/project-9.png',
+    live: 'https://gamer-zone-nu.vercel.app',
+    github: 'https://github.com/Musaddek-Ahmed/GamerZone'
+  },
+  {
+    num: '06',
+    category: 'frontend',
+    title: 'project 6',
     description: 'A beautiful homepage of a travel planner website implementing with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project6.png',
@@ -64,9 +74,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/traveleon'
   },
   {
-    num: '06',
+    num: '07',
     category: 'frontend',
-    title: 'project 6',
+    title: 'project 7',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project7.jpeg',
@@ -74,9 +84,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/makepill-clone'
   },
   {
-    num: '07',
+    num: '08',
     category: 'fullstack',
-    title: 'project 7',
+    title: 'project 8',
     description: 'A weather forecast app with modern touch and various information and implementation of OpenWeatherAPI in fetching real data and making visually attractive and user-friendly.',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project8.png',
@@ -84,9 +94,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/weather-app'
   },
   {
-    num: '08',
+    num: '09',
     category: 'frontend',
-    title: 'project 8',
+    title: 'project 9',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project3.png',

@@ -22,10 +22,29 @@ const projects = [
     live: 'https://lookme-social-media.netlify.app/login',
     github: 'https://github.com/Musaddek-Ahmed/lookme_frontend.git'
   },
+{
+  num: '02',
+  category: 'fullstack',
+  title: 'project 2',
+  description: 'Docsy is a full-stack real-time collaborative document editor. It supports secure document sharing, real-time collaboration, user roles, and a modern responsive UI.',
+  stack: [
+    { name: 'Next.js 14' },
+    { name: 'TypeScript' },
+    { name: 'Clerk Auth' },
+    { name: 'Liveblocks' },
+    { name: 'Lexical Editor' },
+    { name: 'TailwindCSS' },
+    { name: 'Radix UI' }
+  ],
+  image: '/assets/projects/docsy.png',
+  live: 'https://docsy-rho.vercel.app/',
+  github: 'https://github.com/Musaddek-Ahmed/Docsy'
+},
+
   {
-    num: '02',
+    num: '03',
     category: 'frontend',
-    title: 'project 2',
+    title: 'project 3',
     description: 'I made this website for a company. I used HTML, CSS and Javascript here. Also used GSAP for animation. Complete frontend was developed by me.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project1.png',
@@ -34,9 +53,9 @@ const projects = [
   },
   
   {
-    num: '03',
+    num: '04',
     category: 'fullstack',
-    title: 'project 3',
+    title: 'project 4',
     description: 'I made my own portfolio with help of NextJs, TailwindCss and Framer-motion. Also used EmailJs for getting visitors messages to my own email. I show cased my work along with my skill in my portfolio.',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Framer-motion'}],
     image: '/assets/projects/project5.png',
@@ -44,9 +63,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/personal_portfolio'
   },
   {
-    num: '04',
+    num: '05',
     category: 'frontend',
-    title: 'project 4',
+    title: 'project 5',
     description: 'A SAAS modern landing page with mesmerizing UI with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project7.png',
@@ -54,9 +73,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/Xora'
   },
   {
-    num: '05',
+    num: '06',
     category: 'frontend',
-    title: 'project 5',
+    title: 'project 6',
     description: 'A modern landing page of a gaming website implementing with the help of NextJs, Typescript and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project-9.png',
@@ -64,9 +83,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/GamerZone'
   },
   {
-    num: '06',
+    num: '07',
     category: 'frontend',
-    title: 'project 6',
+    title: 'project 7',
     description: 'A beautiful homepage of a travel planner website implementing with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project6.png',
@@ -74,9 +93,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/traveleon'
   },
   {
-    num: '07',
+    num: '08',
     category: 'frontend',
-    title: 'project 7',
+    title: 'project 8',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project7.jpeg',
@@ -84,24 +103,14 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/makepill-clone'
   },
   {
-    num: '08',
+    num: '09',
     category: 'fullstack',
-    title: 'project 8',
+    title: 'project 9',
     description: 'A weather forecast app with modern touch and various information and implementation of OpenWeatherAPI in fetching real data and making visually attractive and user-friendly.',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project8.png',
     live: 'https://weather-app-musaddek.vercel.app/',
     github: 'https://github.com/Musaddek-Ahmed/weather-app'
-  },
-  {
-    num: '09',
-    category: 'frontend',
-    title: 'project 9',
-    description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
-    stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
-    image: '/assets/projects/project3.png',
-    live: 'https://musaddek-ahmed.github.io/two-good/',
-    github: 'https://github.com/Musaddek-Ahmed/Two-Good.git'
   },
 
 ]

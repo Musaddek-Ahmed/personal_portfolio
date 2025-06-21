@@ -28,11 +28,8 @@ const projects = [
   title: 'project 2',
   description: 'Docsy is a full-stack real-time collaborative document editor. It supports secure document sharing, real-time collaboration, user roles, and a modern responsive UI.',
   stack: [
-    { name: 'Next.js 14' },
+    { name: 'NextJs' },
     { name: 'TypeScript' },
-    { name: 'Clerk Auth' },
-    { name: 'Liveblocks' },
-    { name: 'Lexical Editor' },
     { name: 'TailwindCSS' },
     { name: 'Radix UI' }
   ],

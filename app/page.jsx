@@ -37,7 +37,7 @@ const Home = () => {
                
             </div>
 
-            <p className=' text-blue-300 mt-10 text-sm mb-10'>© {new Date().getFullYear()} Musaddek Ahmed. All rights reserved.</p>
+            <p className=' text-slate-400 mt-10 text-sm mb-10'>© {new Date().getFullYear()} Musaddek Ahmed. All rights reserved.</p>
             
           </div>
           <div className='order-1 xl:order-none mb-8 xl:mb-0'>

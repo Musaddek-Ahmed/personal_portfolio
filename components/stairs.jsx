@@ -5,7 +5,7 @@ const stairAnimation = {
   initial: {
     top: '0%',
     filter: 'blur(0px)',
-    scale: 1.05,
+    scale: 0.95,
     opacity: 0.7,
   },
   animate: {

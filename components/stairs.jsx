@@ -2,15 +2,24 @@ import React from 'react'
 import {animate, motion} from "framer-motion"
 
 const stairAnimation = {
-    initial: {
-        top: '0%',
-    },
-    animate: {
-        top: '100%',
-    },
-    exit: {
-        top: ['100%', '0%'],
-    }
+  initial: {
+    top: '0%',
+    filter: 'blur(0px)',
+    scale: 1.05,
+    opacity: 0.7,
+  },
+  animate: {
+    top: '100%',
+    filter: 'blur(4px)',
+    scale: 1,
+    opacity: 1,
+  },
+  exit: {
+    top: ['100%', '0%'],
+    filter: 'blur(0px)',
+    scale: 0.95,
+    opacity: 0.5,
+  },
 
 }
 
@@ -35,7 +44,7 @@ const Stairs = () => {
         ease: 'easeInOut',
         delay: reverseIndex(index) * 0.1,
        }}
-       className='h-full w-full bg-green-300 relative'
+       className='h-full w-full bg-[#00b7ff] relative'
       />
       )
     })}

@@ -31,7 +31,8 @@ const projects = [
     { name: 'NextJs' },
     { name: 'TypeScript' },
     { name: 'TailwindCSS' },
-    { name: 'Radix UI' }
+    { name: 'Appwrite' },
+    { name: 'Clerk Auth' }
   ],
   image: '/assets/projects/docsy.png',
   live: 'https://docsy-rho.vercel.app/',
@@ -143,7 +144,7 @@ const Work = () => {
               <ul className='flex gap-4'>
                 {project.stack.map((item, index) => {
                   return(
-                    <li key={index} className='text-lg text-accent'>
+                    <li key={index} className='text-sm text-accent'>
                         {item.name}
                         {index !== project.stack.length - 1 && ","}
                     </li>

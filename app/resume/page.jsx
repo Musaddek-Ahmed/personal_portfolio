@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { FaHtml5, FaCss3, FaJs,FaReact, FaNodeJs } from 'react-icons/fa'
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si'
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiMongodb, SiAppwrite, SiShadcnui, SiRadixui } from 'react-icons/si'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@radix-ui/react-tooltip'
 import { motion } from 'framer-motion'
@@ -111,8 +111,28 @@ const skills= {
       name: 'tailwind.css',
     },
     {
+      icon: <SiTypescript/>,
+      name: 'typescript',
+    },
+    {
       icon: <FaNodeJs/>,
       name: 'node.js',
+    },
+    {
+      icon: <SiMongodb/>,
+      name: 'mongodb',
+    },
+    {
+      icon: <SiAppwrite/>,
+      name: 'appwrite',
+    },
+    {
+      icon: <SiShadcnui/>,
+      name: 'shadcn/ui',
+    },
+    {
+      icon: <SiRadixui/>,
+      name: 'radix/ui',
     },
 
   ]

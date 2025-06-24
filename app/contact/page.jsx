@@ -70,9 +70,9 @@ const Contact = () => {
               <h3 className='text-4xl text-accent'>Let's work together</h3>
 
               <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
-                <Input name='user_name' type='name' placeholder='Name'/>
-                <Input name='user_email' type='email' placeholder='Email Address'/>
-                <Input name='user_phone' type='phone' placeholder='Phone Number'/>
+                <Input name='name' type='name' placeholder='Name'/>
+                <Input name='email' type='email' placeholder='Email Address'/>
+                <Input name='phone' type='phone' placeholder='Phone Number'/>
               </div>
               <Textarea
               name='user_message'

@@ -1,7 +1,7 @@
 import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-//components
+
 import Header from "@/components/header";
 import PageTransition from "@/components/page_transition";
 import StairTransition from "@/components/ui/stair_transition";

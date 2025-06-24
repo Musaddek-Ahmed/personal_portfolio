@@ -75,7 +75,7 @@ const Contact = () => {
                 <Input name='phone' type='phone' placeholder='Phone Number'/>
               </div>
               <Textarea
-              name='user_message'
+              name='message'
                className='h-[200px]'
                placeholder='Type your message here...'
               />

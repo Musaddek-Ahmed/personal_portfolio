@@ -32,17 +32,31 @@ const projects = [
     { name: 'TypeScript' },
     { name: 'TailwindCSS' },
     { name: 'Appwrite' },
-    { name: 'Clerk Auth' }
   ],
   image: '/assets/projects/docsy.png',
   live: 'https://docsy-rho.vercel.app/',
   github: 'https://github.com/Musaddek-Ahmed/Docsy'
 },
+{
+  num: '03',
+  category: 'fullstack',
+  title: 'project 3',
+  description: 'Resumind is an AI-powered resume analyzer that evaluates your resume’s ATS compatibility, formatting, and content quality. Built with modern web tech, it offers instant, intelligent feedback to help job seekers optimize their resumes.',
+  stack: [
+    { name: 'React' },
+    { name: 'TypeScript' },
+    { name: 'TailwindCSS' },
+    { name: 'Puter.js' },
+  ],
+  image: '/assets/projects/project10.png',
+  live: 'https://resumind-rm.vercel.app/',
+  github: 'https://github.com/Musaddek-Ahmed/ai-resume-analyzer'
+},
 
   {
-    num: '03',
+    num: '04',
     category: 'frontend',
-    title: 'project 3',
+    title: 'project 4',
     description: 'I made this website for a company. I used HTML, CSS and Javascript here. Also used GSAP for animation. Complete frontend was developed by me.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project1.png',
@@ -51,9 +65,9 @@ const projects = [
   },
   
   {
-    num: '04',
+    num: '05',
     category: 'fullstack',
-    title: 'project 4',
+    title: 'project 5',
     description: 'I made my own portfolio with help of NextJs, TailwindCss and Framer-motion. Also used EmailJs for getting visitors messages to my own email. I show cased my work along with my skill in my portfolio.',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Framer-motion'}],
     image: '/assets/projects/project5.png',
@@ -61,9 +75,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/personal_portfolio'
   },
   {
-    num: '05',
+    num: '06',
     category: 'frontend',
-    title: 'project 5',
+    title: 'project 6',
     description: 'A SAAS modern landing page with mesmerizing UI with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project7.png',
@@ -71,9 +85,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/Xora'
   },
   {
-    num: '06',
+    num: '07',
     category: 'frontend',
-    title: 'project 6',
+    title: 'project 7',
     description: 'A modern landing page of a gaming website implementing with the help of NextJs, Typescript and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project-9.png',
@@ -81,9 +95,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/GamerZone'
   },
   {
-    num: '07',
+    num: '08',
     category: 'frontend',
-    title: 'project 7',
+    title: 'project 8',
     description: 'A beautiful homepage of a travel planner website implementing with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project6.png',
@@ -91,9 +105,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/traveleon'
   },
   {
-    num: '08',
+    num: '09',
     category: 'frontend',
-    title: 'project 8',
+    title: 'project 9',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project7.jpeg',
@@ -101,9 +115,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/makepill-clone'
   },
   {
-    num: '09',
+    num: '10',
     category: 'fullstack',
-    title: 'project 9',
+    title: 'project 10',
     description: 'A weather forecast app with modern touch and various information and implementation of OpenWeatherAPI in fetching real data and making visually attractive and user-friendly.',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project8.png',

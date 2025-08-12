@@ -15,17 +15,27 @@ const projects = [
   {
     num: '01',
     category: 'fullstack',
-    title: 'project 1',
+    title: 'Lookme',
     description: 'a social media website where user can post, delete and download images of high quality and search there choiceful category pictures.',
     stack: [{name: 'React'}, {name: 'TailwindCss'}, {name: 'Sanity'}],
     image: '/assets/projects/project2.png',
     live: 'https://lookme-social-media.netlify.app/login',
     github: 'https://github.com/Musaddek-Ahmed/lookme_frontend.git'
   },
-{
+  {
   num: '02',
   category: 'fullstack',
-  title: 'project 2',
+  title: 'Giphy-Clone',
+  description: 'A GIF search and discovery platform powered by the Giphy API. Users can browse trending GIFs, search by keywords, view single GIF pages with related GIF suggestions, mark favorites, and share or embed GIFs to other platforms.',
+  stack: [{ name: 'React' }, { name: 'TailwindCss' }, { name: 'Giphy API' }],
+  image: '/assets/projects/project11.png',
+  live: 'https://giphy-clone-musaddek.vercel.app/',
+  github: 'https://github.com/Musaddek-Ahmed/Giphy-clone'
+},
+{
+  num: '03',
+  category: 'fullstack',
+  title: 'Docsy',
   description: 'Docsy is a full-stack real-time collaborative document editor. It supports secure document sharing, real-time collaboration, user roles, and a modern responsive UI.',
   stack: [
     { name: 'NextJs' },
@@ -38,9 +48,9 @@ const projects = [
   github: 'https://github.com/Musaddek-Ahmed/Docsy'
 },
 {
-  num: '03',
+  num: '04',
   category: 'fullstack',
-  title: 'project 3',
+  title: 'Resumind',
   description: 'Resumind is an AI-powered resume analyzer that evaluates your resume’s ATS compatibility, formatting, and content quality. Built with modern web tech, it offers instant, intelligent feedback to help job seekers optimize their resumes.',
   stack: [
     { name: 'React' },
@@ -54,9 +64,9 @@ const projects = [
 },
 
   {
-    num: '04',
+    num: '05',
     category: 'frontend',
-    title: 'project 4',
+    title: 'Vercardo',
     description: 'I made this website for a company. I used HTML, CSS and Javascript here. Also used GSAP for animation. Complete frontend was developed by me.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project1.png',
@@ -65,9 +75,9 @@ const projects = [
   },
   
   {
-    num: '05',
+    num: '06',
     category: 'fullstack',
-    title: 'project 5',
+    title: 'Portfolio',
     description: 'I made my own portfolio with help of NextJs, TailwindCss and Framer-motion. Also used EmailJs for getting visitors messages to my own email. I show cased my work along with my skill in my portfolio.',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Framer-motion'}],
     image: '/assets/projects/project5.png',
@@ -75,9 +85,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/personal_portfolio'
   },
   {
-    num: '06',
+    num: '07',
     category: 'frontend',
-    title: 'project 6',
+    title: 'Xora',
     description: 'A SAAS modern landing page with mesmerizing UI with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project7.png',
@@ -85,9 +95,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/Xora'
   },
   {
-    num: '07',
+    num: '08',
     category: 'frontend',
-    title: 'project 7',
+    title: 'GamerZone',
     description: 'A modern landing page of a gaming website implementing with the help of NextJs, Typescript and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project-9.png',
@@ -95,9 +105,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/GamerZone'
   },
   {
-    num: '08',
+    num: '09',
     category: 'frontend',
-    title: 'project 8',
+    title: 'Traveleon',
     description: 'A beautiful homepage of a travel planner website implementing with the help of NextJs and TailwindCSS',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project6.png',
@@ -105,9 +115,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/traveleon'
   },
   {
-    num: '09',
+    num: '10',
     category: 'frontend',
-    title: 'project 9',
+    title: 'Makepill-clone',
     description: 'A beautiful homepage with core implementation of GSAP and minor animations to attract the audience.',
     stack: [{name: 'Html 5'}, {name: 'Css 3'}, {name: 'Javascript'}],
     image: '/assets/projects/project7.jpeg',
@@ -115,9 +125,9 @@ const projects = [
     github: 'https://github.com/Musaddek-Ahmed/makepill-clone'
   },
   {
-    num: '10',
+    num: '11',
     category: 'fullstack',
-    title: 'project 10',
+    title: 'Weather-Forecast',
     description: 'A weather forecast app with modern touch and various information and implementation of OpenWeatherAPI in fetching real data and making visually attractive and user-friendly.',
     stack: [{name: 'NextJs'}, {name: 'TailwindCss'}, {name: 'Typescript'}],
     image: '/assets/projects/project8.png',

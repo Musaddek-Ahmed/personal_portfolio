@@ -62,6 +62,11 @@ const education = {
   title: 'My education',
   items: [
     {
+      institution: 'University of Ulster',
+      degree: "Master's in Computer Science & Technology",
+      duration: 'present',
+    },
+    {
       institution: 'Leading University',
       degree: 'B.sc in Computer Science & Engineering',
       duration: '2019-2023',
